@@ -142,7 +142,7 @@ function App() {
           start: "17% 95%",
           end: "75% 50%",
           scrub: 2,
-          markers: true,
+          // markers: true,
         },
       });
 
