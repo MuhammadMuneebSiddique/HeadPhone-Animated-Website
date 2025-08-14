@@ -50,7 +50,7 @@ const Header = () => {
   return (
     <section className='w-full flex-between px-19 md:px-32 py-6 fixed z-20 top-0 left-0'>
         <div className='logo-left-side'>
-            <img className='w-48 object-cover' src="./src/assets/images/logo.png" alt="logo" />
+            <img className='w-48 object-cover' src="/images/logo.png" alt="logo" />
         </div>
         <div className="hidden md:block opacity-100">
             <ul className="flex-center gap-16">

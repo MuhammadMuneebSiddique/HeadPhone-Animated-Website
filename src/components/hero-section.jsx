@@ -54,7 +54,7 @@ export const HeroSection = ({corde,setCorde}) => {
         <div className='h-full overflow-hidden flex-center'>
             <h1 ref={headRef} className='text-[13rem]/50 md:text-[18rem]/65 h-[35rem] wrap-break-word uppercase font-Outfit text-center font-bold text-primary'>Modern <br /> Harmony</h1>
         </div>
-        <img id='headphone' className='w-[70%]  s2:w-[36%] abs-center z-30' src="./src/assets/images/brown.png" alt="image" />
+        <img id='headphone' className='w-[70%]  s2:w-[36%] abs-center z-30' src="/images/brown.png" alt="image" />
     </section>
   )
 } 
@@ -191,7 +191,7 @@ export const FeaturesSection2 = ({corde,setCorde}) => {
         </div>
         <div className='flex flex-col gap-4 s2:flex-row'> 
             <div className='rounded-3xl w-full h-[50vh] s2:w-[50%] overflow-hidden'>
-                <video className='w-full h-full s2:h-[30rem] sm:h-[35rem] md:h-[40rem] lg:h-[45rem]' autoPlay loop muted playsInline src="/src/assets/images/video.mp4"/>
+                <video className='w-full h-full s2:h-[30rem] sm:h-[35rem] md:h-[40rem] lg:h-[45rem]' autoPlay loop muted playsInline src="/images/video.mp4"/>
             </div>
             <div ref={divRef1} className='w-full h-[50vh] s2:h-[50vh] s2:w-[50%] text-bg'>hhdfd</div>
         </div>
@@ -257,17 +257,17 @@ export const ImageSection = ({corde,setCorde}) => {
         <section ref={containerRef} className='image-section w-full px-19 py-20 bg-bg md:px-32 relative'>
             <div className='flex justify-start'>
                 <div className='img flex justify-start rounded-3xl p-6 bg-white overflow-hidden rotate-12'>
-                    <img className='w-[25rem]' src="/src/assets/images/img1.jpeg" alt="image-1" />
+                    <img className='w-[25rem]' src="/images/img1.jpeg" alt="image-1" />
                 </div>
             </div>
             <div ref={divRef} className='flex justify-end'>
                 <div className='img flex justify-end rounded-3xl p-6 bg-white overflow-hidden rotate-[-20deg]'>
-                    <img className='w-[45rem]' src="/src/assets/images/img3.jpeg" alt="image-2" />
+                    <img className='w-[45rem]' src="/images/img3.jpeg" alt="image-2" />
                 </div>
             </div>
             <div className='flex justify-start'>
                 <div className='img p-6 bg-white rounded-3xl rotate-[-10deg] overflow-hidden'>
-                    <img className='w-[35rem]' src="/src/assets/images/img2.jpeg" alt="image-3" />
+                    <img className='w-[35rem]' src="/images/img2.jpeg" alt="image-3" />
                 </div>
             </div>
         </section>
@@ -349,7 +349,7 @@ export const AboutSection = () => {
         <section  className='about-section w-full p-19 pt-[20rem]  flex-center bg-bg md:px-32 h-fit lg:h-screen relative'>
             <div className='flex justify-center w-full gap-24'>
                 <div className='w-[50%] hidden md:block object-cover rounded-2xl overflow-hidden'>
-                    <img src="/src/assets/images/img4.jpg" alt="image-4" />
+                    <img src="/images/img4.jpg" alt="image-4" />
                 </div>
                 <div className='w-full md:w-[50%] flex flex-col gap-24'>
                     <h2 id='about-head' className='text-[12rem]/40 lg:text-[15rem]/50 font-black text-primary uppercase '>Pure <br /> Escape</h2>
