@@ -12,7 +12,7 @@ export const Features = [
 ]
 
 export const ProductDetails = [
-    {title:"audria one",price:"$1499",image:"/src/assets/images/green.png",key:"1"},
+    {title:"audria one",price:"$1499",image:"/images/green.png",key:"1"},
     {title:"audria pro",price:"$3499",image:"",key:"2"},
-    {title:"audria pro max",price:"$5499",image:"/src/assets/images/black.png",key:"3"},
+    {title:"audria pro max",price:"$5499",image:"/images/black.png",key:"3"},
 ]
