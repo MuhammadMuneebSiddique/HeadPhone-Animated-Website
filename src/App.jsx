@@ -37,7 +37,7 @@ function App() {
 
   useEffect(() => {
     const lenis = new Lenis({
-      duration: 1.2,
+      duration: 2,
       smooth: true,
       smoothTouch: false,
       direction: "vertical",
